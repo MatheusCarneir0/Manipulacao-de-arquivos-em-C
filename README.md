@@ -18,9 +18,9 @@ struct Registro {
     float salario;
 };
 ```
-📚 Exemplo de Uso
-bash
-Copiar código
+## 📚 Exemplo de Uso
+
+```c
 Menu:
 1. Adicionar novo registro
 2. Visualizar registros
