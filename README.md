@@ -11,7 +11,6 @@ Este programa permite realizar operações de **leitura** e **escrita** em arqui
 
 Cada registro é representado por uma `struct` com os seguintes campos:
 
-```c
 struct Registro {
     int id;
     char nome[50];
