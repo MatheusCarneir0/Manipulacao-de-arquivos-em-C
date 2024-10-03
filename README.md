@@ -11,13 +11,31 @@ Este programa permite realizar operações de **leitura** e **escrita** em arqui
 
 Cada registro é representado por uma `struct` com os seguintes campos:
 
+```c
 struct Registro {
     int id;
     char nome[50];
     float salario;
 };
+🛠️ Como Executar
+Compile o código com o compilador GCC:
 
-## 📚 Exemplo de Uso
+bash
+Copiar código
+gcc programa.c -o programa
+Execute o programa:
+
+bash
+Copiar código
+./programa
+No menu, escolha entre:
+
+1 para adicionar um novo registro.
+2 para visualizar os registros existentes.
+3 para sair.
+📚 Exemplo de Uso
+bash
+Copiar código
 Menu:
 1. Adicionar novo registro
 2. Visualizar registros
